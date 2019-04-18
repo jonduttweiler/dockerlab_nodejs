@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "El objetivo de este proyecto es servir como template para proyectos desarrollados en node que utilicen mongodb y express.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loopdev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "jduttweiler <jduttweiler@santafe.gov.ar>",
+  "license": "ISC",
+  "repository": "https://jonaduttweiler@bitbucket.org/jonaduttweiler/node_template.git",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
