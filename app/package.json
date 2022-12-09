@@ -16,7 +16,7 @@
   "repository": "https://jonaduttweiler@bitbucket.org/jonaduttweiler/node_template.git",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "mongodb": "^3.2.3",
     "pug": "^3.0.1"
   },
